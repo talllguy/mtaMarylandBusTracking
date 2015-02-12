@@ -9,10 +9,10 @@
     .setView([39.2833, -76.6167], 12);
 
   L.tileLayer(
-    'http://openmapsurfer.uni-hd.de/tiles/roadsg/x={x}&y={y}&z={z}', {
+    'http://api.tiles.mapbox.com/v4/mapbox.streets/0/0/0.png?access_token=pk.eyJ1IjoidGFsbGxndXkiLCJhIjoiQU4zdXlIdyJ9.wGkUPqhITuNDLgnb5xNx7Q', {
       minZoom: 0,
       maxZoom: 19,
-      attribution: 'Imagery from <a href="http://giscience.uni-hd.de/">GIScience Research Group @ University of Heidelberg</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+      attribution: '<a href="https://www.mapbox.com/about/maps/">© Mapbox © OpenStreetMap</a>'
     }).addTo(map);
 
   var markers = new L.FeatureGroup();
