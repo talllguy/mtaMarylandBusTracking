@@ -9,7 +9,7 @@
     .setView([39.2833, -76.6167], 12);
 
   L.tileLayer(
-    'http://api.tiles.mapbox.com/v4/mapbox.streets/0/0/0.png?access_token=pk.eyJ1IjoidGFsbGxndXkiLCJhIjoiQU4zdXlIdyJ9.wGkUPqhITuNDLgnb5xNx7Q', {
+    'http://api.tiles.mapbox.com/v4/mapbox.light/0/0/0.png?access_token=pk.eyJ1IjoidGFsbGxndXkiLCJhIjoiQU4zdXlIdyJ9.wGkUPqhITuNDLgnb5xNx7Q', {
       minZoom: 0,
       maxZoom: 19,
       attribution: '<a href="https://www.mapbox.com/about/maps/">© Mapbox © OpenStreetMap</a>'
